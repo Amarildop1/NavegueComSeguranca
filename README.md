@@ -1,8 +1,7 @@
-
 #### Acesse aqui:
-
-Cartilha: [Cartilha](https://github.com/Amarildop1/NavegueComSeguranca/cartilha)
 
 <br>
 
-Site: [Site](https://github.com/Amarildop1/NavegueComSeguranca/site)
+Cartilha: [clique aqui](https://amarildop1.github.io/NavegueComSeguranca/cartilha/)
+
+Site: [clique aqui](https://amarildop1.github.io/NavegueComSeguranca/site/)
