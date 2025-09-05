@@ -1,11 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Navegue com Segurança | Cartilha</title>
-    </head>
-    <body>
-        <p>Cartilha</p>
-    </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartilha: Navegue com Segurança</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f9fc;
+        }
+        .section-card {
+            background-color: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+        }
+        .section-card h2 {
+            font-size: 1.875rem; /* text-3xl */
+            font-weight: 900;
+            color: #005f73;
+            margin-bottom: 1.5rem;
+            border-bottom: 3px solid #94d2bd;
+            padding-bottom: 0.5rem;
+        }
+         .section-card h3 {
+            font-size: 1.5rem; /* text-2xl */
+            font-weight: 700;
+            color: #0a9396;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .section-card p, .section-card li {
+            font-size: 1.125rem; /* text-lg */
+            line-height: 1.75;
+            color: #334155;
+        }
+        .chat-bubble {
+            padding: 0.75rem 1rem;
+            border-radius: 1.25rem;
+            max-width: 80%;
+            margin-bottom: 0.5rem;
+        }
+        .chat-received {
+            background-color: #e2e8f0;
+            border-bottom-left-radius: 0.25rem;
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <main class="max-w-4xl mx-auto p-4 md:p-8">
+        
+        <!-- 1. Capa -->
+        <header class="text-center bg-[#005F73] text-white p-12 rounded-2xl shadow-lg mb-8">
+            <h1 class="text-5xl md:text-6xl font-black tracking-tight">Navegue com Segurança</h1>
+            <p class="mt-4 text-2xl md:text-3xl text-[#e9d8a6]">Um guia prático contra golpes digitais</p>
+        </header>
+
+        <!-- 2. Introdução -->
+        <section class="section-card">
+            <h2>Bem-vindo(a)!</h2>
+            <p>A internet é um lugar incrível, cheio de possibilidades! Mas, assim como no mundo real, precisamos ter alguns cuidados para aproveitá-la ao máximo e com tranquilidade. Esta cartilha foi feita para você, com dicas simples e diretas para te ajudar a identificar e se proteger dos perigos online. Com um pouco de atenção, usar a tecnologia fica fácil e seguro. Vamos começar?</p>
+        </section>
+
+        <!-- 3. O que é Engenharia Social? -->
+        <section class="section-card">
+            <h2>O que é Engenharia Social?</h2>
+            <p>É o famoso "conto do vigário", só que na internet. Engenharia Social é o nome que se dá para a principal tática dos golpistas: a manipulação. Em vez de atacar o sistema do seu celular ou computador, eles tentam enganar você.</p>
+            <p class="mt-4">Eles exploram nossas emoções para nos fazer agir sem pensar. Fique de olho quando uma mensagem despertar em você:</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6 text-center">
+                <div class="p-4 bg-red-100 rounded-lg"><span class="font-bold text-lg text-[#9B2226]">🚨 Medo ou Urgência</span><p class="mt-1 text-base">"Sua conta será bloqueada AGORA!"</p></div>
+                <div class="p-4 bg-yellow-100 rounded-lg"><span class="font-bold text-lg text-[#EE9B00]">🤔 Curiosidade</span><p class="mt-1 text-base">"Veja quem visitou seu perfil."</p></div>
+                <div class="p-4 bg-green-100 rounded-lg"><span class="font-bold text-lg text-[#0A9396]">🤑 Ganância</span><p class="mt-1 text-base">"Você ganhou um prêmio incrível!"</p></div>
+                <div class="p-4 bg-blue-100 rounded-lg"><span class="font-bold text-lg text-[#005F73]">❤️ Empatia</span><p class="mt-1 text-base">"Preciso de ajuda com urgência."</p></div>
+            </div>
+        </section>
+
+        <!-- 4. Conheça os Principais Golpes -->
+        <section class="section-card">
+            <h2>Conheça os Principais Golpes</h2>
+            
+            <h3>Phishing: A "Pescaria" de Dados</h3>
+            <p>Os golpistas enviam e-mails ou mensagens falsas, se passando por bancos, lojas ou governo, para "pescar" seus dados. A mensagem geralmente tem um link que leva a um site falso, idêntico ao original.</p>
+            <div class="mt-4 p-4 border-2 border-dashed border-gray-300 rounded-lg bg-gray-50">
+                <p class="font-bold text-center mb-2">Exemplo de SMS Falso:</p>
+                <div class="border border-gray-300 bg-white p-4 rounded-xl max-w-sm mx-auto">
+                    <p class="text-sm"><strong>BANCO X informa:</strong> Compra suspeita de R$2.850,00 em LOJAS Y. Se não reconhece, cancele JÁ em: <span class="text-blue-600 underline">banco-x-seguranca.info</span></p>
+                </div>
+            </div>
+
+            <h3>Golpe da Falsa Central de Atendimento</h3>
+            <p>Você recebe uma ligação de alguém que se diz do banco, afirmando que sua conta foi invadida. Para "resolver", pedem para você instalar um aplicativo ou fornecer sua senha. <strong class="text-red-600">Lembre-se: o banco NUNCA pede sua senha ou para instalar apps por telefone.</strong></p>
+
+            <h3>Golpe do Parente no WhatsApp</h3>
+            <p>Um número desconhecido entra em contato, com a foto de um familiar, dizendo que trocou de número e pedindo uma transferência urgente. Sempre desconfie! Ligue para o número antigo do seu parente para confirmar.</p>
+            <div class="mt-4 p-4 border-2 border-dashed border-gray-300 rounded-lg bg-gray-50">
+                <p class="font-bold text-center mb-2">Exemplo de Conversa Falsa:</p>
+                <div class="bg-white p-4 rounded-xl max-w-sm mx-auto border flex flex-col">
+                    <div class="chat-bubble chat-received">
+                        <p class="text-base">Oi mãe! Troquei de número, anota aí. To com um problema, preciso pagar uma conta urgente, pode me ajudar?</p>
+                    </div>
+                     <div class="chat-bubble chat-received">
+                        <p class="text-base">O app do meu banco não tá funcionando nesse celular novo. Te passo o pix e você me devolve amanhã?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- 5. Dicas de Ouro para se Proteger -->
+        <section class="section-card">
+            <h2>Dicas de Ouro para se Proteger</h2>
+            
+            <div class="max-w-4xl mx-auto bg-white rounded-lg p-8">
+                <ul class="space-y-6">
+                    <li class="flex items-start">
+                        <span class="text-2xl mr-3 text-green-500">✅</span>
+                        <div>
+                            <h4 class="font-bold text-lg">Desconfie de ofertas e promessas exageradas.</h4>
+                            <p class="text-gray-600">Se parece bom demais para ser verdade, provavelmente é golpe.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-2xl mr-4 text-green-500">✅</span>
+                        <div>
+                            <h4 class="font-bold text-lg">Pense Antes de Clicar. Nunca clique em links suspeitos.</h4>
+                            <p class="text-gray-600">Recebeu um link inesperado por e-mail, SMS ou WhatsApp, mesmo de um amigo? Desconfie. Verifique o remetente e, na dúvida, não clique apague a mensagem. Procure no Google o site oficial da empresa.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-2xl mr-4 text-green-500">✅</span>
+                        <div>
+                            <h4 class="font-bold text-lg">Crie senhas fortes e Únicas</h4>
+                            <p class="text-gray-600">Misturando letras maiúsculas, minúsculas, números e símbolos. Evite usar a mesma senha para tudo. Pense em uma frase que só você conhece. Nunca repita senhas em sites diferentes.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-2xl mr-4 text-green-500">✅</span>
+                        <div>
+                            <h4 class="font-bold text-lg">Nunca forneça senhas, códigos de segurança ou dados pessoais por telefone ou mensagem.</h4>
+                            <p class="text-gray-600">Empresas sérias não pedem isso.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="text-2xl mr-4 text-green-500">✅</span>
+                        <div>
+                            <h4 class="font-bold text-lg">Ative a "Segunda Fechadura" (Verificação em Duas Etapas)</h4>
+                            <p class="text-gray-600">Ative esta função no WhatsApp, e-mail, redes sociais e qualquer aplicativo que tiver a opção. Ela exige um código do seu celular para entrar, mesmo que alguém roube sua senha.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 6. Cuidado nas Redes Sociais -->
+        <section class="section-card">
+            <h2>Cuidado nas Redes Sociais</h2>
+            <p>Facebook e Instagram são ótimos para se conectar, mas exigem atenção:</p>
+            <ul class="list-disc list-inside mt-4 space-y-2">
+                <li><strong>Perfis Falsos:</strong> Desconfie de solicitações de amizade de pessoas que você não conhece ou perfis com poucas fotos e amigos.</li>
+                <li><strong>Golpes de Venda:</strong> Cuidado ao comprar em marketplaces(lojas na internet). Desconfie de preços muito baixos e prefira sempre negociar em locais públicos e seguros.</li>
+                <li><strong>Privacidade é tudo:</strong> Revise as configurações de privacidade do seu perfil. Evite deixar informações muito pessoais, como telefone e endereço, visíveis para todos.</li>
+            </ul>
+        </section>
+
+        <!-- 7. Caí num Golpe, e Agora? -->
+        <section class="section-card">
+            <h2>Caí num Golpe, e Agora?</h2>
+            <p>Se o pior acontecer, mantenha a calma e aja rápido. A velocidade é sua aliada para minimizar os danos.</p>
+            <div class="space-y-4 mt-6">
+                <div class="flex items-center"><div class="flex-shrink-0 bg-[#bb3e03] text-white rounded-full h-10 w-10 flex items-center justify-center font-bold text-xl">1</div><p class="ml-4"><strong>Ligue para seu banco imediatamente</strong> e informe o ocorrido. Peça o bloqueio de cartões e da conta, se necessário.</p></div>
+                <div class="flex items-center"><div class="flex-shrink-0 bg-[#ca6702] text-white rounded-full h-10 w-10 flex items-center justify-center font-bold text-xl">2</div><p class="ml-4"><strong>Registre um Boletim de Ocorrência (B.O.).</strong> Você pode fazer isso online na maioria dos estados.</p></div>
+                <div class="flex items-center"><div class="flex-shrink-0 bg-[#ee9b00] text-white rounded-full h-10 w-10 flex items-center justify-center font-bold text-xl">3</div><p class="ml-4"><strong>Troque as senhas</strong> de todas as contas que possam ter sido afetadas (e-mail, redes sociais, etc.).</p></div>
+                <div class="flex items-center"><div class="flex-shrink-0 bg-[#0a9396] text-white rounded-full h-10 w-10 flex items-center justify-center font-bold text-xl">4</div><p class="ml-4"><strong>Avise amigos e familiares,</strong> especialmente se seus dados ou WhatsApp foram usados no golpe.</p></div>
+            </div>
+        </section>
+
+        <!-- 8. Compartilhe Segurança -->
+        <section class="section-card bg-[#e9d8a6]">
+            <h2 class="text-[#005f73]">Compartilhe Segurança</h2>
+            <p class="text-[#334155]"><strong>Agora que você tem essas informações, que tal ajudar a proteger quem você ama?</strong> Compartilhe esta cartilha com seus amigos e familiares. A segurança digital é um esforço de todos. Juntos, criamos uma internet mais segura para todo mundo!</p>
+        </section>
+
+        <!-- 9. Fontes e Realização -->
+        <footer class="text-center p-6 text-gray-500 text-sm">
+            <p><strong>Autor:</strong> Amarildo Pereira</p>
+            <p class="mt-2"><strong>Fontes de Pesquisa:</strong> CERT.br, FEBRABAN, McAfee, NIC.br</p>
+            <p class="mt-1">Trabalho de Conclusão de Curso - Curso Téc. em Informática para Internet - 2025</p>
+        </footer>
+
+    </main>
+
+</body>
 </html>
